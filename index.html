@@ -1,269 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Convention Center</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS CDN for bootstrap 5  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- font awesome link  -->
-    <script src="https://kit.fontawesome.com/26b0482fe1.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/26b0482fe1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- Nav bar section start -->
-        <section>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <a class="navbar-brand" href="#">Newmarket Convention Center</a>
+      <!-- Nav bar section start -->
+      <section>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">Basundhora Convention Center</a>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Subscribe</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </section>
-        <!-- Banner section start -->
-        <section>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="images/photo1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="images/photo02.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/photo03.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Subscribe</a>
+                </li>
+              </ul>
             </div>
-        </section>
+          </div>
+        </nav>
+      </section>
+      <!-- Banner section start -->
+      <section>
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/photo1.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/photo02.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/photo03.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
     </header>
     <main>
-        <!-- Packeg section start -->
-        <section>
-            <div class="container">
-                <h1 class="my-5 text-center">Our Packeg</h1>
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-pound-sign">500</i></h5>
-                                <h3>Silver Grade</h3>
-                                <div class="card-text text-secondary">
-                                    <p>This is our most popular Packeg</p>
-                                    <p><i class="far fa-check-circle"></i>This is best</p>
-                                    <p><i class="far fa-check-circle"></i>This is awesome</p>
-                                    <p><i class="far fa-check-circle"></i>This is cool</p>
-                                    <p><i class="far fa-check-circle"></i>This is popular</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-pound-sign"></i>700</h5>
-                                <h3>Gold Grade</h3>
-                                <div class="card-text text-secondary">
-                                    <p>This is our most popular Packeg</p>
-                                    <p><i class="far fa-check-circle"></i>This is best</p>
-                                    <p><i class="far fa-check-circle"></i>This is awesome</p>
-                                    <p><i class="far fa-check-circle"></i>This is cool</p>
-                                    <p><i class="far fa-check-circle"></i>This is popular</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-pound-sign"></i>1000</h5>
-                                <h3>Special Offer</h3>
-                                <div class="card-text text-secondary">
-                                    <p>This is our most popular Packeg</p>
-                                    <p><i class="far fa-check-circle"></i>This is best</p>
-                                    <p><i class="far fa-check-circle"></i>This is awesome</p>
-                                    <p><i class="far fa-check-circle"></i>This is cool</p>
-                                    <p><i class="far fa-check-circle"></i>This is popular</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-pound-sign"></i>1000</h5>
-                                <h3>Platinum Grade</h3>
-                                <div class="card-text text-secondary">
-                                    <p>This is our most popular Packeg</p>
-                                    <p><i class="far fa-check-circle"></i>This is best</p>
-                                    <p><i class="far fa-check-circle"></i>This is awesome</p>
-                                    <p><i class="far fa-check-circle"></i>This is cool</p>
-                                    <p><i class="far fa-check-circle"></i>This is popular</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <!-- Packeg section start -->
+      <section>
+        <div class="container">
+          <h1 class="my-5 text-center">Our Packeg</h1>
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-pound-sign">500</i>
+                  </h5>
+                  <h3>Silver Grade</h3>
+                  <div class="card-text text-secondary">
+                    <p>This is our most popular Packeg</p>
+                    <p><i class="far fa-check-circle"></i>This is best</p>
+                    <p><i class="far fa-check-circle"></i>This is awesome</p>
+                    <p><i class="far fa-check-circle"></i>This is cool</p>
+                    <p><i class="far fa-check-circle"></i>This is popular</p>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <!-- Question section  -->
-        <section>
-            <div class="container">
-                <h1 class="my-5 text-center">Frequently Asked Questions</h1>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item border my-2">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed fw-bold" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        What is a convention center?
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        The first convention centers can be traced back to mid-19th century Britain.
-                                        Commonly
-                                        known as exhibition halls, the centers were designed to bring together people to
-                                        discuss
-                                        and explore their mutual interest of a subject.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item border my-2">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        What is the purpose of the Convention Center?
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        A convention center is a building or group of buildings designed, in most cases,
-                                        for
-                                        the
-                                        purpose of conducting meetings, rallies, or seminars. It may also be adapted for
-                                        specific events, such as appearances by well-known speakers or musicians.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item border my-2">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed fw-bold" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">
-                                        What is the main purpose of event management?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Detect all changes of state that have significance for the management of a Cl or
-                                        IT
-                                        service. Determine the appropriate control action for events,and ensure these
-                                        are
-                                        communicated to the appropriate functions. Provide the trigger,or entry
-                                        point,for
-                                        the
-                                        execution of many service operation processes and operations management
-                                        activities.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item border my-2">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed fw-bold" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        What is events planning & management?
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Events Planning & Management: Why It’s So Important! Events planning and
-                                        management
-                                        is a
-                                        complex, detail oriented business. “To ensure you are planning an event
-                                        successfully,
-                                        it’s imperative that you keep your eye on the big picture”.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <img src="images/ask.jpg" class="img-fluid" alt="...">
-                    </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-pound-sign"></i>700
+                  </h5>
+                  <h3>Gold Grade</h3>
+                  <div class="card-text text-secondary">
+                    <p>This is our most popular Packeg</p>
+                    <p><i class="far fa-check-circle"></i>This is best</p>
+                    <p><i class="far fa-check-circle"></i>This is awesome</p>
+                    <p><i class="far fa-check-circle"></i>This is cool</p>
+                    <p><i class="far fa-check-circle"></i>This is popular</p>
+                  </div>
                 </div>
+              </div>
             </div>
-
-        </section>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-pound-sign"></i>1000
+                  </h5>
+                  <h3>Special Offer</h3>
+                  <div class="card-text text-secondary">
+                    <p>This is our most popular Packeg</p>
+                    <p><i class="far fa-check-circle"></i>This is best</p>
+                    <p><i class="far fa-check-circle"></i>This is awesome</p>
+                    <p><i class="far fa-check-circle"></i>This is cool</p>
+                    <p><i class="far fa-check-circle"></i>This is popular</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-pound-sign"></i>1000
+                  </h5>
+                  <h3>Platinum Grade</h3>
+                  <div class="card-text text-secondary">
+                    <p>This is our most popular Packeg</p>
+                    <p><i class="far fa-check-circle"></i>This is best</p>
+                    <p><i class="far fa-check-circle"></i>This is awesome</p>
+                    <p><i class="far fa-check-circle"></i>This is cool</p>
+                    <p><i class="far fa-check-circle"></i>This is popular</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Question section  -->
+      <section>
+        <div class="container">
+          <h1 class="my-5 text-center">Frequently Asked Questions</h1>
+          <div class="row">
+            <div class="col-6">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item border my-2">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      What is a convention center?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      The first convention centers can be traced back to
+                      mid-19th century Britain. Commonly known as exhibition
+                      halls, the centers were designed to bring together people
+                      to discuss and explore their mutual interest of a subject.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border my-2">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      What is the purpose of the Convention Center?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      A convention center is a building or group of buildings
+                      designed, in most cases, for the purpose of conducting
+                      meetings, rallies, or seminars. It may also be adapted for
+                      specific events, such as appearances by well-known
+                      speakers or musicians.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border my-2">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      What is the main purpose of event management?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Detect all changes of state that have significance for the
+                      management of a Cl or IT service. Determine the
+                      appropriate control action for events,and ensure these are
+                      communicated to the appropriate functions. Provide the
+                      trigger,or entry point,for the execution of many service
+                      operation processes and operations management activities.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border my-2">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      What is events planning & management?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Events Planning & Management: Why It’s So Important!
+                      Events planning and management is a complex, detail
+                      oriented business. “To ensure you are planning an event
+                      successfully, it’s imperative that you keep your eye on
+                      the big picture”.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="images/ask.jpg" class="img-fluid" alt="..." />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <h4 class="border border-3">This is footer section</h4>
+      <section class="bg-dark text-white p-5">
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex align-items-center">
+              <p>© 2020 bike. All rights reserved</p>
+            </div>
+            <div class="col d-flex flex-column align-items-center">
+              <h3>Get the App</h3>
+              <img src="images/icons/apple.png" class="w-25" alt="..." />
+              <img src="images/icons/google.png" class="w-25" alt="..." />
+            </div>
+          </div>
+        </div>
+      </section>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <!-- JS CDN for bootstrap 5  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
