@@ -166,12 +166,28 @@
           </button>
         </div>
       </section>
-      <!-- Toast section start -->
+      <!-- toast section start -->
       <section class="container-fluid">
-        <div class="alert alert-success text-center" role="alert">
-          <p>
-            <i class="fas fa-gift text-dark me-2"></i>20% off on next booking
-          </p>
+        <div
+          class="toast show"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="d-flex">
+            <div class="toast-body">
+              <p>
+                <i class="fas fa-gift text-dark me-2"></i>20% off on next
+                booking
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn-close me-2 m-auto"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
         </div>
       </section>
     </header>
@@ -447,7 +463,7 @@
         <div class="container">
           <div class="row">
             <div class="col d-flex align-items-center">
-              <p>© 2020 bike. All rights reserved</p>
+              <p>© 2022. All rights reserved ICCB</p>
             </div>
             <div class="col text-center">
               <h3>Get the App</h3>
@@ -472,14 +488,6 @@
         </div>
       </section>
     </footer>
-
-    <!-- alert  -->
-    <section class="container">
-      <div class="alert alert-success" role="alert">
-        <h4 class="alert-heading">Well done!</h4>
-        <p><i class="far fa-gift text-info me-2"></i>20% off on next booking</p>
-      </div>
-    </section>
     <!-- JS CDN for bootstrap 5  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
